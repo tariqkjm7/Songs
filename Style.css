@@ -1,0 +1,35 @@
+header{background-color:#0A1D37;
+font-size-adjust: 150;
+border: 2px solid #0A1D37;
+color:#FFBD9B ;
+text-align: center;}
+
+p{background-color: #FFBD9B;
+  background-repeat: auto;
+font-size: large;
+ border: 3px solid #0A1D37;
+
+font-feature-settings: "smcp" on; 
+color: #0A1D37}
+
+
+footer{background-color:#0A1D37;
+color:#FFBD9B;
+font-size: large;
+ border: 6px solid #FFBD9B;
+ text-align: center}
+
+nav{ font-feature-settings: "smcp" on; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #FFBD9B;
+background-color:  #FFBD9B;
+font-size: large;
+color:#0A1D37}
+
+p.thick {
+  font-weight: bold;
+}
+#1stlink{font-display: initial}
