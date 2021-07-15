@@ -13,26 +13,16 @@ var stringB ="Jazz is a music genre that originated in the African-American comm
 /**end of the Strings */
 
 if (songkind=="Rap"){
-  document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTovucQCV_YAr_ZPfmQrR1cUgkOTMTGhPW4nw&usqp=CAU width='350' height='350'/>" + "</div>"+string)
+  document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS5T0I8sOxXr9Hb8y5TDTQNcl_2pPKbQrN5w&usqp=CAU width='400' height='350'/>" + "</div>"+string)
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> d552cfc4d5682692820c2a6bc781f57b4d14a910
 else if (songkind=="Blouse"){
 document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX_S7vWHBR2UT36RbGunxNeXHdwLOz5vHQFA&usqp=CAU width='350' height='350'/>" + "</div>"+stringA)
 }
 else if (songkind=="Jazz"){
 document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmI5Mp8VP_1GDkzdXBC_DGA1mdDw0TqzVIVA&usqp=CAU  width='350' height='350'/>" + "</div>"+stringB)
 }
-<<<<<<< HEAD
+
 else{document.write("I force you to choose one of the kinds above Rap  /Jazz  / Blouse          (*_*) LoL")
 }
-=======
-else{"I force you to choose one of the kinds above LoL"}
->>>>>>> d552cfc4d5682692820c2a6bc781f57b4d14a910
-
-
 
 
