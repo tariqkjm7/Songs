@@ -1,9 +1,8 @@
-var name = prompt("what is your name")
+function welcoming(){ var name = prompt("what is your name")
 
 alert("hey, wlecome to my website " + name )
-
-var songkind = prompt("what kind of songs do you like  here is a list == Rap / Blouse / Jazz")
-
+}
+welcoming();
 
 //************************************************************** those Strings are for a discription for the images in the website      *************************************************************//
 
@@ -12,26 +11,43 @@ var stringA ="Blouse is an American alternative rock band based in Portland, Ore
 var stringB ="Jazz is a music genre that originated in the African-American communities of New Orleans, Louisiana, United States, in the late 19th and early 20th centuries, with its roots in blues and ragtime. Since the 1920s Jazz Age, it has been recognized as a major form of musical expression in traditional and popular music, linked by the common bonds of African-American and European-American musical parentage.-->"
 /**end of the Strings */
 
+var songkind = prompt("what kind of songs do you like  here is a list == Rap / Blouse / Jazz") 
+while (songkind != "Rap" && songkind != "Blouse" && songkind != "Jazz"){
+  var songkind = prompt("I force you to choose one of these kinds::: Rap  /Jazz  / Blouse          (*_*) LoL") 
+}
+var counter = prompt("how many times would you like to read the same article   (->_->)  ")
+
+
+RapSongs();
+BlouseSongs();
+JazzSongs();
+
+
+function RapSongs(){
 if (songkind=="Rap"){
-  document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTovucQCV_YAr_ZPfmQrR1cUgkOTMTGhPW4nw&usqp=CAU width='350' height='350'/>" + "</div>"+string)
+  for(var i =1; i<=counter; i++){
+  
+  document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS5T0I8sOxXr9Hb8y5TDTQNcl_2pPKbQrN5w&usqp=CAU width='400' height='350'/>" + "</div>"+string) }
+  }
 }
-<<<<<<< HEAD
+  
+
+  function BlouseSongs(){
+ if (songkind=="Blouse"){
+    for(var i =1; i<=counter; i++){
+document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX_S7vWHBR2UT36RbGunxNeXHdwLOz5vHQFA&usqp=CAU width='350' height='350'/>" + "</div>"+stringA)}
+  }
+}
 
 
-=======
->>>>>>> d552cfc4d5682692820c2a6bc781f57b4d14a910
-else if (songkind=="Blouse"){
-document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX_S7vWHBR2UT36RbGunxNeXHdwLOz5vHQFA&usqp=CAU width='350' height='350'/>" + "</div>"+stringA)
+
+function JazzSongs(){
+ if (songkind=="Jazz"){
+    for(var i =1; i<=counter; i++){
+document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmI5Mp8VP_1GDkzdXBC_DGA1mdDw0TqzVIVA&usqp=CAU  width='350' height='350'/>" + "</div>"+stringB)}
+  }
 }
-else if (songkind=="Jazz"){
-document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmI5Mp8VP_1GDkzdXBC_DGA1mdDw0TqzVIVA&usqp=CAU  width='350' height='350'/>" + "</div>"+stringB)
-}
-<<<<<<< HEAD
-else{document.write("I force you to choose one of the kinds above Rap  /Jazz  / Blouse          (*_*) LoL")
-}
-=======
-else{"I force you to choose one of the kinds above LoL"}
->>>>>>> d552cfc4d5682692820c2a6bc781f57b4d14a910
+
 
 
 
