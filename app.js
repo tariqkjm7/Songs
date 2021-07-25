@@ -30,12 +30,6 @@ if (songkind=="Rap"){
   document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS5T0I8sOxXr9Hb8y5TDTQNcl_2pPKbQrN5w&usqp=CAU width='400' height='350'/>" + "</div>"+string) }
   }
 
-if (songkind=="Rap"){
-  document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS5T0I8sOxXr9Hb8y5TDTQNcl_2pPKbQrN5w&usqp=CAU width='400' height='350'/>" + "</div>"+string)
-}
-else if (songkind=="Blouse"){
-document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX_S7vWHBR2UT36RbGunxNeXHdwLOz5vHQFA&usqp=CAU width='350' height='350'/>" + "</div>"+stringA)
-
 }
   
 
@@ -52,15 +46,4 @@ document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted
 function JazzSongs(){
  if (songkind=="Jazz"){
     for(var i =1; i<=counter; i++){
-document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmI5Mp8VP_1GDkzdXBC_DGA1mdDw0TqzVIVA&usqp=CAU  width='350' height='350'/>" + "</div>"+stringB)}
-  }
-}
-
-
-
-
-else{document.write("I force you to choose one of the kinds above Rap  /Jazz  / Blouse          (*_*) LoL")
-}
-
-
-
+document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmI5Mp8VP_1GDkzdXBC_DGA1mdDw0TqzVIVA&usqp=CAU  width='350' height='350'/>" + "</div>"+stringB)}}}
