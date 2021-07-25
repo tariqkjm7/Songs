@@ -10,12 +10,15 @@ var string = "Hip hop music, also known as rap music,is a genre of popular music
 var stringA ="Blouse is an American alternative rock band based in Portland, Oregon formed in 2010 by Charlie Hilton (vocals, guitar) and Patrick Adams (bass).-->"
 var stringB ="Jazz is a music genre that originated in the African-American communities of New Orleans, Louisiana, United States, in the late 19th and early 20th centuries, with its roots in blues and ragtime. Since the 1920s Jazz Age, it has been recognized as a major form of musical expression in traditional and popular music, linked by the common bonds of African-American and European-American musical parentage.-->"
 /**end of the Strings */
+songs();
 
+function songs(){
 var songkind = prompt("what kind of songs do you like  here is a list == Rap / Blouse / Jazz") 
 while (songkind != "Rap" && songkind != "Blouse" && songkind != "Jazz"){
   var songkind = prompt("I force you to choose one of these kinds::: Rap  /Jazz  / Blouse          (*_*) LoL") 
 }
 var counter = prompt("how many times would you like to read the same article   (->_->)  ")
+
 
 
 RapSongs();
@@ -40,10 +43,12 @@ document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted
   }
 }
 
-
-
-
 function JazzSongs(){
  if (songkind=="Jazz"){
     for(var i =1; i<=counter; i++){
 document.write("<div>" + "<h3>" + songkind+ "</h3>" +"<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmI5Mp8VP_1GDkzdXBC_DGA1mdDw0TqzVIVA&usqp=CAU  width='350' height='350'/>" + "</div>"+stringB)}}}
+
+starRating();
+
+function starRating(){var stars = prompt("what star rating would you give 1 -> 5")}
+}
